@@ -1,0 +1,6 @@
+# dsh-session-palette bundle patch: one loader row. The package's host half is
+# empty; its browser half (lib/client.js) is discovered through dsh.client and
+# attached to this row by @deepseek-ai/dsh-client-modules.
+- insert:
+    - id: session-palette
+      name: dsh-session-palette

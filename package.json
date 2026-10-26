@@ -1,0 +1,58 @@
+{
+  "name": "dsh-session-palette",
+  "version": "0.1.0",
+  "description": "Spotlight-style session switcher for DeepSeek Harness: one hotkey, search every session, Enter to switch.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon.svg": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "icon": "./icon.svg",
+  "scripts": {
+    "check": "node --check lib/index.js && node --check lib/client.js",
+    "test": "node test/client.test.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "session",
+    "palette",
+    "spotlight",
+    "switcher"
+  ],
+  "author": "Alex Yan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmaze/dsh-session-palette.git"
+  },
+  "homepage": "https://github.com/alexmaze/dsh-session-palette#readme",
+  "bugs": {
+    "url": "https://github.com/alexmaze/dsh-session-palette/issues"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
