@@ -9,6 +9,11 @@
 [![test](https://github.com/alexmaze/dsh-session-palette/actions/workflows/test.yml/badge.svg)](https://github.com/alexmaze/dsh-session-palette/actions/workflows/test.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alexmaze/dsh-session-palette/main/docs/preview-light.png" alt="Session Palette — light theme" width="49%">
+  <img src="https://raw.githubusercontent.com/alexmaze/dsh-session-palette/main/docs/preview-dark.png" alt="Session Palette — dark theme" width="49%">
+</p>
+
 ```
 ┌────────────────────────────────────────────────────────────┐
 │  🔍  搜索会话、工作区…                                esc  │
